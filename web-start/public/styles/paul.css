@@ -1,0 +1,186 @@
+
+body{
+  background-color: #c2e1e3;
+}
+.nome, .cognome, .numero, .lavoro{
+  display: table-cell;
+  width: 8.2%;
+  word-wrap: break-word;
+  text-align: center;
+  border-left: 1px solid #cb4b26;
+  border-right: 1px solid #cb4b26;
+  border-top: 2px solid #cb4b26;
+  height: 100%;
+  vertical-align: top;
+}
+.indirizzo {
+  vertical-align: top;
+  display: table-cell;
+  overflow: auto;
+  width: 13%;
+  word-wrap: break-word;
+  text-align: center;
+  border-left: 1px solid #cb4b26;
+  border-right: 1px solid #cb4b26;
+  border-top: 2px solid #cb4b26;
+}
+.email, .descrizione  {
+  vertical-align: top;
+  display: table-cell;
+  overflow:auto;
+  text-align: center;
+  width: 19%;
+  border-left: 1px solid #cb4b26;
+  border-right: 1px solid #cb4b26;
+  border-top: 2px solid #cb4b26;
+}
+.ore, .oreFinale{
+  vertical-align: top;
+  display: table-cell;
+  width: 4%;
+  text-align: center;
+  border-left: 1px solid #cb4b26;
+  border-right: 1px solid #cb4b26;
+  border-top: 2px solid #cb4b26;
+}
+.operatore{
+  vertical-align: top;
+  display: table-cell;
+  text-align: center;
+  width: 10%;
+  border-left: 1px solid #cb4b26;
+  border-right: 1px solid #cb4b26;
+  border-top: 2px solid #cb4b26;
+}
+.richiesta{
+  display: table-row;
+  border: 1px solid #cb4b26;
+  height: 50px;
+}
+.intestazioneRichiesta{
+  display: table-row;
+  border: 1px solid #cb4b26;
+  height: 20px;
+  font-weight: bold;
+  color:#cb4b26;
+  font-size: 16px;
+}
+hr{
+  margin: 0;
+}
+.selezOp{
+  background-color: #fff;
+  color: #cb4b26;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid #cb4b26;
+  margin: 5px;
+  outline: none;
+}
+.selezOp:hover{
+  background-color: #cb4b26;
+  border: 3px solid #cb4b26;
+  color: #fff;
+}
+option{
+  background-color: #fff;
+  color: #cb4b26;
+  border: 1px solid #cb4b26;
+}
+
+.spaziatore{
+  height: 5px;
+  width: 100%;
+}
+#lavoriCommissionati, #lavoriAssegnati, #finale, #lavoriConclusi, #intestazioneFinale{
+  display: table;
+  width: 90%;
+  margin-left: 5%;
+  border: 3px solid #cb4b26;
+}
+h1, h3{
+  color: #cb4b26;
+  margin: 0;
+  font-family: "Futura-Medium", "Source Sans Pro", sans-serif;
+  padding-bottom: 7px;
+  text-align: center;
+}
+h1{
+  font-size: 56px;
+}
+
+.btn{
+  background-color: #fff;
+  color: #cb4b26;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid #cb4b26;
+  margin: 5px;
+}
+.btn:hover{
+  background-color: #cb4b26;
+  border: 3px solid #cb4b26;
+  color: #fff;
+}
+h3{
+  color: #cb4b26;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: "Futura-Medium", "Source Sans Pro", sans-serif;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Personalizza il colore del pollice (thumb) della scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #cb4b26;
+  border-radius: 10px;
+}
+.logo{
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  height: 100%;
+  z-index: 1;
+}
+.contLogo{
+  position: relative;
+  width: 100%;
+}
+.cont {
+  position: fixed;
+  width: 50%;
+  z-index: 1;
+  top: 10%;
+  left: 25%;
+  overflow-x: hidden;
+  background-color: #cb4b26;
+  padding: 20px;
+}
+.chiudi {
+  position: absolute;
+  width: 30px;
+  right: 10px;
+  color: white;
+  background-color: firebrick ;
+  border: 3.5px solid maroon;
+}
+.titoloDiv {
+  color: #fff;
+  font-size: 30px
+}
+.descriz{
+  background-color: #fff;
+  color: #cb4b26;
+  padding: 5px;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}

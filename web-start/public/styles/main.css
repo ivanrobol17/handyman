@@ -1,0 +1,129 @@
+/*roba mia*/
+body{
+  background-color: #c2e1e3;
+  text-align: center;
+}
+div{
+  font-family: "Futura-Medium", "Source Sans Pro", sans-serif;
+}
+h1,
+h3 {
+  color: #cb4b26;
+  margin: 0;
+  font-family: "Futura-Medium", "Source Sans Pro", sans-serif;
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+.cella{
+  display: flex;
+}
+.input{
+  width: 520px;
+  border: 3px solid #cb4b26;
+}
+.sfondo{
+  background-image: url(https://paulwoodfordservices.com/wp-content/themes/paulwoodford/img/img2.jpg);
+  background-size: cover;
+  width: 100%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-position: center center;
+}
+.interazione{
+  display: block;
+  margin: 12px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 500px;
+  box-sizing: border-box; 
+  color: #cb4b26;
+}
+.scelta{
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+.scelta:checked{
+  background-color: #cb4b26;
+  color: #fff;
+}
+.scelta:hover{
+  border-bottom: 5px solid #bbb;
+  border-right: 5px solid #bbb;
+}
+.interazione:focus{
+  outline: none;
+}
+.interazione::placeholder{
+  color: #cb4b26;
+}
+.interazione:hover{
+  border-bottom: 5px solid #bbb;
+  border-right: 5px solid #bbb;
+}
+#inviaRichiesta {
+  background-color: #cb4b26;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#inviaRichiesta:hover{
+  border-bottom: 5px solid #ab2b06;
+  border-right: 5px solid #ab2b06;
+}
+.scrittaContatti{
+  margin: 0;
+  color: #cb4b26;
+}
+.logo{
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  height: 100%;
+  z-index: 1;
+}
+.contLogo{
+  position: relative;
+  width: 100%;
+}
+/* Personalizza la scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Personalizza il colore del pollice (thumb) della scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #cb4b26;
+  border-radius: 10px;
+}
+#risultatoPreventivo{
+  display: block;
+    margin: 12px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 500px;
+    box-sizing: border-box;
+    color: #cb4b26;
+    background-color: transparent;
+}
+#confermaLavoro{
+  background-color: #cb4b26;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 480px;
+  font-size: 16px;
+}
